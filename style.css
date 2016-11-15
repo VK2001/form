@@ -1,0 +1,96 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#menu
+{
+	width: 800px;
+	background-color: lightgreen;
+	margin: 10px auto; /*виставляємо контейнер по центру*/
+	overflow: hidden;
+	border-radius: 25px;
+}
+
+ul
+{
+	list-style-type: none;
+	margin-left: 5px;
+}
+
+#menu ul li
+{
+	width: 100px;
+	float: left;
+	margin: 10px 0 10px 10px;
+	padding: 10px;
+	cursor: pointer;
+	background-color: #fffacd;
+	border-radius: 15px;
+	border:1px solid black;
+	color: black;
+	text-align: center;
+}
+
+
+#menu ul li.active
+{
+	background-color: #3cb371;
+	color: white;	
+
+}
+
+#menu ul li:hover 
+{
+    background-color: lightblue;
+    color: black;
+}
+
+#menu, #content
+{
+width: 800px;
+margin: 10px auto;
+}
+
+#content
+{
+	/*background-color: transparent;*/ /*прозорий колір*/
+	background-color: lightgrey;
+}
+
+.form label
+{
+width: 100px;
+display: inline-block;
+margin-top: 5px;
+}
+
+table, td
+{
+border: 1px grey dotted;
+padding: 5px;
+font-family: Verdana;
+font-size: 13px;
+color: blue;
+font-weight: bold;
+}
+
+.header
+{
+background-color: orange;
+color: black;
+}
+
+.btn
+{
+	color: red;
+	padding: 1px;
+	border-radius: 5px;
+	border:1px solid black;
+
+}
+
+.btn:hover {
+    background-color: lightyellow;
+}
