@@ -1,0 +1,27 @@
+{
+  "name": "ajaxform",
+  "version": "1.0.0",
+  "description": "ajax",
+  "main": "server.js",
+  "scripts": {
+    "test": "not server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VK2001/form.git"
+  },
+  "keywords": [
+    "ajaxform"
+  ],
+  "author": "kshyvetskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VK2001/form/issues"
+  },
+  "homepage": "https://github.com/VK2001/form#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
